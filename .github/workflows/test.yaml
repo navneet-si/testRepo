@@ -39,3 +39,7 @@ jobs:
         
     - name: Build and Test (Java 21)
       run: mvn clean test
+
+    - name: Package the application
+      run: mvn clean package  
+
